@@ -1,0 +1,45 @@
+:root {
+  --bg-main: #0a0f1d;
+  --bg-card: #131c31;
+  --color-accent: #00ff66;
+  --text-main: #ffffff;
+  --text-muted: #8f9cae;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+}
+
+h1 {
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:link:hover {
+  color: var(--color-accent);
+}
+
+p {
+  color: var(--text-muted);
+  font-size: 30px;
+  text-align: center;
+}
