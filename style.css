@@ -42,7 +42,7 @@ nav {
   gap: 40px;
 }
 
-nav a:link {
+nav a {
   text-decoration: none;
   color: white;
 }
@@ -63,7 +63,6 @@ h2 {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 80px;
-  background-color: red;
   padding: 10px 10px;
 }
 
@@ -74,7 +73,7 @@ h2 {
   background-color: var(--color-accent);
   border: 2px white solid;
   border-radius: 16px;
-  margin-top: 10px;
+  margin: 20px auto 0 auto;
   font-weight: 500;
   cursor: pointer;
 }
@@ -84,6 +83,6 @@ h2 {
   flex-direction: column;
 }
 
-nav a:link:hover {
-  color: var(--color-accent);
+nav a:hover {
+  color: #00ff66;
 }
