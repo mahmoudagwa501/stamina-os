@@ -10,6 +10,19 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-main);
+  font-family: sans-serif;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-img img {
+  max-width: 400px;
+  border: 1px white solid;
+  border-radius: 16px;
+  margin-top: 100px;
 }
 
 h1 {
@@ -34,19 +47,43 @@ nav a:link {
   color: white;
 }
 
-nav a:link:hover {
-  color: var(--color-accent);
-}
-
 p {
   color: var(--text-muted);
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
+  font-style: italic;
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 h2 {
   color: var(--text-main);
   text-align: center;
   font-size: 40px;
-  text-shadow: 3px 3px 3px red;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: red;
+  padding: 10px 10px;
+}
+
+.btn-start {
+  align-self: center;
+  padding: 8px 12px;
+  font-size: 18px;
+  background-color: var(--color-accent);
+  border: 2px white solid;
+  border-radius: 16px;
+  margin-top: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a:link:hover {
+  color: var(--color-accent);
 }
